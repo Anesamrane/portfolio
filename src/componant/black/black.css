@@ -1,0 +1,43 @@
+.wall{
+    width: 60%;
+    height: 200vh;
+    background-color: #2D3040;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-35%);
+    font-size: small;
+    z-index: 99;
+  }
+  .categorie{
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 3vh;
+    color: #fff;
+  }
+  .ligne{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .ligne .info{
+    width: 47%;
+    height: auto;
+    border-radius: 1vh;
+    padding: 2vh;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    line-height: 4vh;
+    box-shadow: 0 0 0.2vh #fff;
+  }
+  .ligne .info span{
+    color: #e6e6e6ac;
+  }
+  .ligne .info:hover{
+    background-color: #e6e6e65e;
+  }

@@ -1,0 +1,40 @@
+.wall2{
+    width: 27%;
+    height: 100vh;
+    background-color: #171717;
+    float: left;
+    padding: 10vh;
+    position: fixed;
+    font-size: small;
+}
+
+.wall2 img{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+    box-shadow: 0 0 0.3vh #fff;
+}
+.wall2 .info2{
+    color: #fff;
+    margin-top: 5vh;
+}
+.wall2 .info2 li{
+    line-height: 7vh;
+}
+.wall2 a{
+    position: absolute;
+    width: 108%;
+    left: 0;
+    bottom: 0;
+    height: 10vh;
+    color: #fff;
+    text-decoration: none;
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.wall2 a:hover{
+    background-color: #e6e6e65e;
+}
