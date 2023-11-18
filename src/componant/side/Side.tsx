@@ -18,7 +18,7 @@ function Side() {
             <li>Full stack developper</li>
             <li>Make more then 3 web site</li>
         </ul>
-        <Link href="">Send me email</Link>
+        <Link href="mailto:anesamrane9@gmail.com">Send me email</Link>
     </div>
   )
 }
